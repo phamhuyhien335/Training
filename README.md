@@ -2,6 +2,17 @@
 
 A deep learning project for detecting plant diseases using TensorFlow and MobileNetV2. This project can classify 15 different types of plant diseases across multiple plant species including Apple, Corn, Grape, Potato, and Tomato.
 
+## 🚀 Quick Start
+
+New to this project? Check out the [Quick Start Guide](QUICKSTART.md) to get up and running in 5 minutes!
+
+## 📚 Documentation
+
+- **[Quick Start Guide](QUICKSTART.md)** - Get started in 5 minutes
+- **[Usage Guide](USAGE.md)** - Detailed usage instructions
+- **[Contributing Guide](CONTRIBUTING.md)** - How to contribute
+- **[Examples](example.py)** - Code examples
+
 ## 🌿 Overview
 
 This project uses transfer learning with MobileNetV2 to detect plant diseases from leaf images. The model is trained on the PlantVillage dataset and can be deployed on mobile devices using TensorFlow Lite.
@@ -210,9 +221,21 @@ The TensorFlow Lite model (`plant_model.tflite`) can be deployed on:
 
 Contributions are welcome! Please feel free to submit a Pull Request.
 
+## 🛠️ Tools and Scripts
+
+This project includes several utility scripts:
+
+- **`config.py`** - Centralized configuration management
+- **`utils.py`** - Common utility functions
+- **`train.py`** - Command-line training script
+- **`predict.py`** - Command-line inference script
+- **`evaluate.py`** - Model evaluation with metrics
+- **`prepare_data.py`** - Data organization and preparation
+- **`example.py`** - Usage examples
+
 ## 📝 License
 
-This project is open source and available under the MIT License.
+This project is open source and available under the [MIT License](LICENSE).
 
 ## 👥 Authors
 
